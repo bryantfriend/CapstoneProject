@@ -9,7 +9,7 @@
 
   .menu a{
     float: left;
-    color: #8c6b48;
+    color: #1fb67c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -17,11 +17,11 @@
   }
 
   .menu a.active{
-    background-color: #380792;
+    background-color: #07492a;
     color: white;
   }
 
   .menu a:hover{
-    background-color: #ddd;
+    background-color: rgb(219, 233, 213);
     color: black;
   }
