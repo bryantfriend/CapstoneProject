@@ -24,5 +24,31 @@
             </div>
         </div>
         <h1>Contact Us</h1>
+
+        <div class="contact">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="clinic">Clinic</label>
+              <select id="clinic" name="clinic">
+                <option value="cardiology">Cardiology Clinic</option>
+                <option value="chiropractic">Chiropractic Clinic</option>
+                <option value="emergency">Emergency Department</option>
+                <option value="oncology">Oncology Clinic</option>                
+                <option value="wellness">Wellness Clinic</option>                  
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </body>
 </html>
