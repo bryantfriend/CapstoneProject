@@ -1,4 +1,4 @@
-
+alert ("test");
 
 function submit(){
     let fName = document.getElementById('fName').nodeValue
@@ -6,4 +6,4 @@ function submit(){
     let clinic = document.getElementById('clinic').nodeValue
     let subject = document.getElementById('subject').nodeValue
     window.open('mailto:info@lgn.com?subject=subject&body=body');
-}
+};
