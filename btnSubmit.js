@@ -1,6 +1,7 @@
-alert ("test");
+
 
 function submit(){
+    alert ("test");
     let fName = document.getElementById('fName').nodeValue
     let lName = document.getElementById('lName').nodeValue
     let clinic = document.getElementById('clinic').nodeValue
