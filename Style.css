@@ -1,13 +1,13 @@
-  .menu {
+.menu {
     background-color: #b4e0d1;
     overflow: hidden;
   }
 
-  .menu-right{
+.menu-right{
       float: right;
   }
 
-  .menu a{
+.menu a{
     
     display: inline-block;
     color: #055536;
@@ -18,12 +18,44 @@
     border-radius: 5px
   }
 
-  .menu a.active{
+.menu a.active{
     background-color: #07492a;
     color: white;
   }
 
-  .menu a:hover{
+.menu a:hover{
     background-color: rgb(219, 233, 213);
     color: black;
   }
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
